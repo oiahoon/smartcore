@@ -41,7 +41,9 @@ use serde::{Deserialize, Serialize};
 pub(crate) mod bbd_tree;
 /// tree data structure for fast nearest neighbor search
 pub mod cover_tree;
-/// fastpair closest neighbour algorithm
+/// eppstein pairwise closest neighbour algorithm
+pub mod eppstein;
+/// fastpair pairwise closest neighbour algorithm
 pub mod fastpair;
 /// very simple algorithm that sequentially checks each element of the list until a match is found or the whole list has been searched.
 pub mod linear_search;
